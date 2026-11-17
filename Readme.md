@@ -20,10 +20,10 @@ My focus areas include:
 
 ## 📚 Core Concepts
 
-| Topic | Link | Handwritten Notes|
+| Topic | Link | Core Implementation|
 |---|---|---|
 | Caching | [Read](https://redis.io/blog/cache-layer-architecture-guide) | [LRU cache diagram](lld/caching/LRU/LRU.excalidraw.svg)
-| Consistent Hashing | [Read](https://bytebytego.com/courses/system-design-interview/design-consistent-hashing) |
+| Consistent Hashing | [Read](https://bytebytego.com/courses/system-design-interview/design-consistent-hashing) | [Solution](lld/consistant-hashing/BST-implementation.go)
 | Database Indexing | [Read](concepts/database-indexing/README.md) |
 | Concurrency | [Read](concepts/concurrency/README.md) |
 | Message Queues | [Read](concepts/message-queues/README.md) |
@@ -34,7 +34,6 @@ My focus areas include:
 | Problem | Key Concepts | Solution |
 |---|---|---|
 | LRU Cache | HashMap, Linked List, Concurrency | [View](lld/caching/LRU/LRU.excalidraw.svg) |
-| Consistant Hashing | BST, Virtual Nodes, FNV-1a Hashing | [View](lld/consistant-hashing/BST-implementation.go) |
 | Rate Limiter | Token Bucket, Thread Safety | [View](lld/rate-limiter/README.md) |
 | Task Scheduler | Worker Pool, Retry, Cancellation | [View](lld/task-scheduler/README.md) |
 | In-Memory KV Store | TTL, Concurrency, Storage | [View](lld/in-memory-kv-store/README.md) |
