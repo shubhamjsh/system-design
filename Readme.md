@@ -22,7 +22,7 @@ My focus areas include:
 
 | Topic | Link | Handwritten Notes|
 |---|---|---|
-| Caching | [Read](https://redis.io/blog/cache-layer-architecture-guide) | ![LRU cache diagram](caching/LRU/LRU.excalidraw.svg)
+| Caching | [Read](https://redis.io/blog/cache-layer-architecture-guide) | [LRU cache diagram](./caching/LRU/LRU.excalidraw.svg)
 | Consistent Hashing | [Read](concepts/consistent-hashing/README.md) |
 | Database Indexing | [Read](concepts/database-indexing/README.md) |
 | Concurrency | [Read](concepts/concurrency/README.md) |
