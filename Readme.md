@@ -33,7 +33,7 @@ My focus areas include:
 
 | Problem | Key Concepts | Solution |
 |---|---|---|
-| LRU Cache | HashMap, Linked List, Concurrency | [View](lld/caching/LRU/LRU.excalidraw.svg) |
+| LRU Cache | HashMap, Linked List, Concurrency | [View](lld/caching/LRU/LRU.go) |
 | Rate Limiter | Token Bucket, Thread Safety | [View](lld/rate-limiter/README.md) |
 | Task Scheduler | Worker Pool, Retry, Cancellation | [View](lld/task-scheduler/README.md) |
 | In-Memory KV Store | TTL, Concurrency, Storage | [View](lld/in-memory-kv-store/README.md) |
