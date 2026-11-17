@@ -22,7 +22,7 @@ My focus areas include:
 
 | Topic | Link |
 |---|---|
-| Caching | [Read](concepts/caching/README.md) |
+| Caching | [Read](https://redis.io/blog/cache-layer-architecture-guide) |
 | Consistent Hashing | [Read](concepts/consistent-hashing/README.md) |
 | Database Indexing | [Read](concepts/database-indexing/README.md) |
 | Concurrency | [Read](concepts/concurrency/README.md) |
