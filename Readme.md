@@ -20,9 +20,9 @@ My focus areas include:
 
 ## 📚 Core Concepts
 
-| Topic | Link |
-|---|---|
-| Caching | [Read](https://redis.io/blog/cache-layer-architecture-guide) |
+| Topic | Link | Handwritten Notes|
+|---|---|---|
+| Caching | [Read](https://redis.io/blog/cache-layer-architecture-guide) | ![LRU cache diagram](caching/LRU/LRU.excalidraw.svg)
 | Consistent Hashing | [Read](concepts/consistent-hashing/README.md) |
 | Database Indexing | [Read](concepts/database-indexing/README.md) |
 | Concurrency | [Read](concepts/concurrency/README.md) |
