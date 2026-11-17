@@ -27,7 +27,7 @@ My focus areas include:
 | Database Indexing | [Read](concepts/database-indexing/README.md) |
 | Concurrency | [Read](concepts/concurrency/README.md) |
 | Message Queues | [Read](concepts/message-queues/README.md) |
-| Idempotency | [Read](concepts/idempotency/README.md) |
+| Idempotency | [Read](https://algomaster.io/learn/system-design/idempotency) | [Solution](lld/idempotency/payment.go)
 
 ## 🧩 Low-Level Design (LLD)
 
