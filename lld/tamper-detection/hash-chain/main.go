@@ -1,4 +1,6 @@
-package tamper_detection
+//tamper-evident audit ledger in Go
+
+package main
 
 import (
 	"crypto/sha256"
@@ -17,7 +19,7 @@ type Event struct {
 	Hash         string
 }
 
-type ledger struct {
+type Ledger struct {
 	event []Event
 }
 
@@ -38,7 +40,7 @@ func calculateHash(e Event) string {
 	return hex.EncodeToString(h[:])
 }
 
-func (l *ledger) append(userID string, action string) Event {
+func (l *Ledger) append(userID string, action string) Event {
 	var sequence uint64 = 1
 	var previous string
 	for i := len(l.event) - 1; i >= 0; i-- {
@@ -55,7 +57,7 @@ func (l *ledger) append(userID string, action string) Event {
 	return e
 }
 
-func (l *ledger) verify(userID, hash string, sequence uint64) error {
+func (l *Ledger) verify(userID, hash string, sequence uint64) error {
 	for _, e := range l.event {
 		if e.UserID == userID && e.Hash == hash && e.Sequence == sequence {
 			return nil
@@ -65,7 +67,7 @@ func (l *ledger) verify(userID, hash string, sequence uint64) error {
 }
 
 func main() {
-	l := &ledger{}
+	l := &Ledger{}
 	l.append("user123", "LOGIN")
 	last := l.append("user123", "TRANSFER 10,000")
 	checkpointSequense, checkpointHash := last.Sequence, last.Hash
