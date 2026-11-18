@@ -28,6 +28,8 @@ My focus areas include:
 | Concurrency | [Read](concepts/concurrency/README.md) |
 | Message Queues | [Read](concepts/message-queues/README.md) |
 | Idempotency | [Read](https://algomaster.io/learn/system-design/idempotency) | [Solution](lld/idempotency/payment.go)
+| Merkel Tree | [Read](lld/tamper-detection/Merkel-tree.excalidraw.svg) | [Hash Chain](lld/tamper-detection/hash-chain.go) [Merkel Tree](lld/tamper-detection/merkel-tree.go)
+
 
 ## 🧩 Low-Level Design (LLD)
 
