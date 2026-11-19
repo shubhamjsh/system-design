@@ -26,7 +26,7 @@ My focus areas include:
 | Consistent Hashing | [Read](https://bytebytego.com/courses/system-design-interview/design-consistent-hashing) | [Solution](lld/consistant-hashing/BST-implementation.go)
 | Database Indexing | [Read](concepts/database-indexing/README.md) |
 | Concurrency | [Read](concepts/concurrency/README.md) |
-| Message Queues |  | (https://github.com/shubhamjsh/Message-Queue/)
+| Message Queues |  | [Solution](https://github.com/shubhamjsh/Message-Queue/)
 | Idempotency | [Read](https://algomaster.io/learn/system-design/idempotency) | [Solution](lld/idempotency/payment.go)
 | Merkle Tree | [Read](lld/tamper-detection/Merkle-tree.excalidraw.svg) | [Hash Chain](lld/tamper-detection/hash-chain/main.go) [Merkle Tree](lld/tamper-detection/merkle-tree/main.go)
 
