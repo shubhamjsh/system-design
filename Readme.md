@@ -26,7 +26,7 @@ My focus areas include:
 | Consistent Hashing | [Read](https://bytebytego.com/courses/system-design-interview/design-consistent-hashing) | [Solution](lld/consistant-hashing/BST-implementation.go)
 | Database Indexing | [Read](concepts/database-indexing/README.md) |
 | Concurrency | [Read](concepts/concurrency/README.md) |
-| Message Queues | [Read](concepts/message-queues/README.md) |
+| Message Queues |  | (https://github.com/shubhamjsh/Message-Queue/)
 | Idempotency | [Read](https://algomaster.io/learn/system-design/idempotency) | [Solution](lld/idempotency/payment.go)
 | Merkle Tree | [Read](lld/tamper-detection/Merkle-tree.excalidraw.svg) | [Hash Chain](lld/tamper-detection/hash-chain/main.go) [Merkle Tree](lld/tamper-detection/merkle-tree/main.go)
 
@@ -36,6 +36,7 @@ My focus areas include:
 | Problem | Key Concepts | Solution |
 |---|---|---|
 | LRU Cache | HashMap, Linked List, Concurrency | [View](lld/caching/LRU/LRU.go) |
+| Chat app | gRPC stream | [View](lld/grpc-chat)
 | Rate Limiter | Token Bucket, Thread Safety | [View](lld/rate-limiter/README.md) |
 | Task Scheduler | Worker Pool, Retry, Cancellation | [View](lld/task-scheduler/README.md) |
 | In-Memory KV Store | TTL, Concurrency, Storage | [View](lld/in-memory-kv-store/README.md) |
