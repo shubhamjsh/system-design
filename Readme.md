@@ -37,7 +37,7 @@ My focus areas include:
 |---|---|---|
 | LRU Cache | HashMap, Linked List, Concurrency | [View](lld/caching/LRU/LRU.go) |
 | Chat app | gRPC stream | [View](lld/grpc-chat)
-| Rate Limiter | Token Bucket, Thread Safety | [View](lld/rate-limiter/README.md) |
+| Rate Limiter | Token Bucket, Sliding Window Thread Safety | [View](lld/rate-limiter) |
 | Task Scheduler | Worker Pool, Retry, Cancellation | [View](lld/task-scheduler/README.md) |
 | In-Memory KV Store | TTL, Concurrency, Storage | [View](lld/in-memory-kv-store/README.md) |
 

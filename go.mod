@@ -1,6 +1,6 @@
 module system-design
 
-go 1.26.0
+go 1.26.4
 
 require (
 	github.com/golang/protobuf v1.5.4 // indirect
